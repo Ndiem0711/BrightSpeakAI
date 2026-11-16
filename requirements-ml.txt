@@ -1,0 +1,2 @@
+# Optional open-source ASR: Whisper pretrained deep-learning inference, downloaded on first use.
+faster-whisper>=1.1,<2

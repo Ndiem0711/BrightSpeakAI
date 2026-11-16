@@ -1,0 +1,42 @@
+BRIGHTSPEAKAI V13 — HUONG DAN SU DUNG
+
+1. Giai nen toan bo thu muc BrightSpeakAI_V13. Khong chay trong file ZIP.
+2. Mo GEMINI_KEY.txt, dan Gemini API key vao sau GEMINI_API_KEY= va luu.
+3. Double-click START-BRIGHTSPEAK.bat. Can Python 3.11 hoac 3.12 va Internet lan dau.
+4. Tai khoan local: student@demo.com / student123; teacher@demo.com / teacher123; admin@demo.com / admin123.
+5. Vao Admin, bam Kiem tra AI. Neu API bao loi model/quyen/han muc, doc thong bao huong dan.
+
+CHON GEMINI PRO
+AI_MODELS.txt da dat GEMINI_MODEL=gemini-3.1-pro-preview.
+Chi can sua ten model trong file nay roi dung STOP-BRIGHTSPEAK.bat va chay START lai.
+GEMINI_LIVE_MODEL dung rieng cho Face-to-face, khong doi thanh Pro thuong.
+Ten model duoc tham khao tu tai lieu Google ngay 16/11/2026. Quyen truy cap va han muc tuy tai khoan.
+Pro van can Gemini API key hop le; viec doi model khong sua duoc loi key/han muc.
+V13 chua tich hop OpenAI API. Tai khoan ChatGPT khong duoc dung thay cho API key trong ma nguon nay.
+
+KET QUA PHAT AM
+V13 so khop tu theo thu tu, danh dau tu thieu/khac/them; kiem tra am thanh qua nho/im lang.
+AI nghe ban ghi de dua nhan xet ngan khi key va model hoat dong.
+Diem van la chi bao luyen tap; chua phai danh gia am vi da duoc hieu chuan tren giong tre em.
+Transcript nhap tay chi dung trong muc Kiem thu local; khong luu vao tien bo, khong cho phep tren cloud.
+
+CA NHAN HOA
+Goi y bai on theo ket qua gan nhat, do dai cau va khoi lop; chi lay bai HS duoc phep xem.
+Bam vao bai goi y de mo dung bai luyen. GV van co the tao/giao bai rieng.
+
+ML THUC NGHIEM
+Kem mo hinh RandomForest da huan luyen va ket qua that trong ml/models.
+De su dung suy luan ML tuy chon, cai requirements-train.txt trong .venv.
+Mo hinh chi nhan dien 8 tu lenh, khong dung de cham phat am hay danh gia HS.
+CNN co ma huan luyen tuy chon, chua huan luyen va chua cong bo ket qua trong ban nay.
+
+CLOUD
+render.yaml va Dockerfile da duoc cap nhat V13. Day la CAU HINH, khong phai minh chung da deploy.
+Can noi ma nguon vao repository ma Render co quyen doc; dien Gemini key, email gui thu va tai khoan Admin khoi tao.
+Khong dung tai khoan demo local tren cloud. SECRET_KEY phai rieng biet, DEMO_OTP=false, PostgreSQL ben vung.
+Ban V13 nay CHUA co URL cloud da xac minh. Xem docs/CLOUD_V13.md.
+
+KIEM THU VA GHI LOI
+Double-click RUN-TESTS.bat de chay test. Test can moi truong local, khong key va DB test rieng.
+Ket qua chay trong phien bien soan: docs/qa-v13-junit.xml, docs/QA_V13.md.
+Ghi loi tai docs/BUG_LOG_V13.csv: buoc tai hien, mong doi, thuc te, muc do, minh chung va ket qua test lai.

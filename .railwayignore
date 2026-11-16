@@ -1,0 +1,25 @@
+# Railway CLI packaging excludes private data and local build artifacts.
+.git/
+.railway/
+.env
+.env.*
+!.env.example
+.venv/
+.testvenv/
+.pytest_cache/
+**/__pycache__/
+**/*.pyc
+runtime/
+logs/
+ml/data/
+ml/models/*.joblib
+ml/models/*.json
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.log
+CLOUD_URL.txt
+docs/*.png
+
+GEMINI_KEY.txt

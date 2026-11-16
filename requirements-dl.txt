@@ -1,0 +1,3 @@
+# Optional DL training dependencies; torch can be large on Windows.
+-r requirements-train.txt
+torch>=2.3,<3

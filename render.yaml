@@ -1,0 +1,45 @@
+# BrightSpeakAI V13 • Render Free demo only. Do not store real student data.
+# Requires this render.yaml committed to a Git repository.
+# On Free, Postgres expires after 30 days; web service can sleep.
+databases:
+  - name: brightspeakai-v13-demo-db
+    databaseName: brightspeak
+    user: brightspeak
+    plan: free
+services:
+  - type: web
+    name: brightspeakai-v13-demo
+    runtime: python
+    plan: free
+    buildCommand: pip install --no-cache-dir -r requirements.txt -r requirements-cloud.txt
+    startCommand: python -m uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/v1/system/health
+    envVars:
+      - key: APP_ENV
+        value: cloud
+      - key: DEMO_OTP
+        value: "false"
+      - key: ASR_ENGINE
+        value: gemini
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: brightspeakai-v13-demo-db
+          property: connectionString
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.1-pro-preview
+      - key: GEMINI_LIVE_MODEL
+        value: gemini-3.8-live
+      - key: RESEND_API_KEY
+        sync: false
+      - key: MAIL_FROM
+        sync: false
+      - key: PUBLIC_BASE_URL
+        sync: false
+      - key: BOOTSTRAP_ADMIN_EMAIL
+        sync: false
+      - key: BOOTSTRAP_ADMIN_PASSWORD
+        sync: false
