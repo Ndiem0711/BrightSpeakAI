@@ -1,0 +1,7 @@
+ID,Module,Mức độ,Trạng thái,Bước tái hiện,Mong đợi,Thực tế V12,Sửa V13,Minh chứng
+V13-001,Scoring,High,Fixed,Đọc từ mẫu sai thứ tự,Không được điểm khớp/đủ từ tuyệt đối,So khớp ký tự và đếm từ bỏ qua thứ tự,Căn chỉnh từ Levenshtein,test_word_order_and_missing_words_are_not_perfect
+V13-002,Progress,High,Fixed,Nhập transcript kiểm thử rồi phân tích,Không ghi thành tiến bộ thật,Lưu lượt test cùng attempts,Không lưu manual và lọc demo cũ,test_manual_transcript_is_not_saved_or_counted
+V13-003,Audio,Medium,Fixed,Gửi WAV im lặng,Báo ghi lại trước gọi ASR,Chưa chặn rõ bản ghi im lặng,Kiểm tra RMS và khoảng im lặng,test_silence_is_rejected
+V13-004,Personalization,Medium,Fixed,Xem gợi ý sau luyện,Gợi ý bài cụ thể đúng quyền,Chủ yếu hướng dẫn chung,Gợi ý bài theo lịch sử và khối lớp,test_recommendations_do_not_expose_other_grades_or_teacher_assignments
+V13-005,AI connection,High,Needs live verification,Gọi Pro/Live bằng key thật,Nhận phản hồi thật,Chưa có minh chứng phiên này,Thêm chẩn đoán và lỗi rõ nguyên nhân,Chưa kiểm tra key thật
+V13-006,Cloud,High,Blocked,Deploy mã V13,URL V13 chạy và giữ dữ liệu,Thiếu quyền đưa mã lên nguồn build,Cấu hình và checklist đã chuẩn bị,Chưa deploy

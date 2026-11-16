@@ -1,0 +1,47 @@
+BRIGHTSPEAKAI V12 — HƯỚNG DẪN CHẠY & KIỂM TRA
+==============================================
+
+1. KHỞI ĐỘNG TRÊN WINDOWS
+- Cài Python 3.11 hoặc 3.12 (tùy chọn 3.13); kết nối Internet cho lần cài đặt đầu.
+- Giải nén ZIP vào thư mục MỚI, ví dụ D:\BrightSpeakAI. Không chép đè lên phiên bản cũ.
+- Mở GEMINI_KEY.txt, dán khóa sau GEMINI_API_KEY= rồi Lưu. Đừng gửi file có key cho người khác.
+- Nhấp đúp START-BRIGHTSPEAK.bat. Cửa sổ đặt tên BrightSpeakAI, trình duyệt tự mở.
+- Mặc định ở http://127.0.0.1:8765; khi cổng bận sẽ tự tìm cổng trống kế tiếp.
+- Có thể chạy bản demo không có key, nhưng Gemini Live và AI thật sẽ KHÔNG hoạt động.
+- Để dừng: STOP-BRIGHTSPEAK.bat. Nếu có lỗi: RUN-DIAGNOSTICS.bat, xem logs\server-error.log.
+
+2. THỬ CHỨC NĂNG HS (CHỈ DÙNG TÀI KHOẢN DEMO TRÊN MÁY LOCAL)
+- Đăng nhập từ tài khoản thử được ghi ngay trên màn hình local; không dùng tài khoản giả khi triển khai Cloud.
+- Face-to-face AI: chọn chủ đề và câu luyện đúng lớp, chọn "Bắt đầu nói".
+- Chờ Bibi đọc câu hỏi. Nếu Gemini trả chữ mà thiếu audio, trình duyệt sẽ thử đọc phụ đề bằng tiếng Anh.
+- Nói câu trả lời qua micro; Bibi được hướng dẫn phản hồi theo nội dung lời nói, không theo mẫu ngoài chương trình.
+- Nút "Bibi hỏi câu này" phát câu đã chọn, "Câu tiếp" chuyển sang câu kế tiếp.
+- Camera là tùy chọn; người giám hộ cần đồng ý bật camera, hình xem trước có nút lật gương.
+- Nếu Bibi không phát giọng: kiểm tra GEMINI_KEY.txt, tai nghe/loa, quyền mic và thông báo ở giao diện; mở trình duyệt Chrome/Edge bản mới. Fallback dùng giọng đọc cài trên thiết bị.
+
+3. DÀNH CHO GIÁO VIÊN
+- Admin phân công HS cho GV trước. GV vào mục "Teacher".
+- Chọn khối lớp 1–5; nhập chủ đề/Unit, từ hoặc câu cần luyện, gợi ý ngắn nếu cần.
+- Chọn checkbox các HS thuộc lớp đó do mình phụ trách; bấm "Tạo và giao bài".
+- Chọn "Sửa/Giao lại" để chỉnh, hoặc "Ẩn bài" để ngừng giao (không xóa lịch sử).
+- Bài chỉ hiện với HS được giao, và xuất hiện trong phần Luyện phát âm và câu gợi ý Face-to-face.
+- Giới hạn từ một bài: lớp 1: 8, lớp 2: 12, lớp 3: 18, lớp 4: 24, lớp 5: 30 từ. GV phải duyệt tính phù hợp của nội dung trước khi giao.
+
+4. BỘ DỮ LIỆU TRONG ZIP
+- data\global_success_original_speaking.json: 105 cặp câu gợi ý hỏi/đáp theo khối lớp, tự biên soạn.
+- data\global_success_original_speaking.csv: cùng dữ liệu để GV xem và rà soát bằng Excel.
+- data\lessons.json: 125 câu luyện phát âm mẫu từ các phiên bản trước.
+- docs\DATASET_V12.md: cách phân biệt học liệu, Speech Commands và dữ liệu thật cần gắn nhãn.
+- Không có bản sao sách Global Success hoặc âm thanh có bản quyền. Nội dung chỉ tham chiếu Unit/chủ đề; phải đối chiếu bộ SGK dùng tại trường.
+
+5. EMAIL VÀ CLOUD
+- Gửi email/reset password cần cấu hình nhà cung cấp email theo README; Gmail cá nhân không tự hoạt động nếu chưa cấu hình dịch vụ gửi.
+- Render Free: dự án đã có cấu hình render.yaml, nhưng chưa triển khai công khai. Muốn tạo đường dẫn cần GitHub/GitLab hoặc Bitbucket repo và thiết lập biến môi trường riêng trên Render.
+- Không đăng GEMINI_KEY.txt, .env hoặc dữ liệu HS lên GitHub. Dữ liệu và điểm trên bản demo không thay thế đánh giá của GV.
+
+6. KIỂM THỬ
+- RUN-TESTS.bat để chạy bộ kiểm thử Python.
+- Test mic/camera thật và Gemini key thực hiện trên máy có thiết bị và mạng trước khi dùng trong lớp.
+- Chức năng webcam chỉ dùng cho giao tiếp tự nguyện; không suy đoán cảm xúc, sự tập trung hoặc năng lực học sinh từ gương mặt.
+
+QUAN TRỌNG: Đây là hướng dẫn DUY NHẤT theo phiên bản V12, không dùng hướng dẫn phiên bản trước.

@@ -1,0 +1,106 @@
+﻿id,grade,unit_title,topic,question,sample_answer,source_kind,skill,question_level
+GS1-01-1,1,In the school playground,In the school playground,Can you say ball?,Ball.,original_adaptation,listen-speak,word
+GS1-01-2,1,In the school playground,In the school playground,Can you say bike?,Bike.,original_adaptation,listen-speak,word
+GS1-01-3,1,In the school playground,In the school playground,Can you see a ball?,A ball.,original_adaptation,listen-speak,word
+GS1-02-1,1,In the dining room,In the dining room,Can you say cup?,Cup.,original_adaptation,listen-speak,word
+GS1-02-2,1,In the dining room,In the dining room,Can you say cake?,Cake.,original_adaptation,listen-speak,word
+GS1-02-3,1,In the dining room,In the dining room,Is it a cup?,"Yes, a cup.",original_adaptation,listen-speak,word
+GS1-03-1,1,At the street market,At the street market,Can you say apple?,Apple.,original_adaptation,listen-speak,word
+GS1-03-2,1,At the street market,At the street market,Can you say bag?,Bag.,original_adaptation,listen-speak,word
+GS1-03-3,1,At the street market,At the street market,Can you see an apple?,An apple.,original_adaptation,listen-speak,word
+GS1-04-1,1,In the classroom,In the classroom,Can you say pen?,Pen.,original_adaptation,listen-speak,word
+GS1-04-2,1,In the classroom,In the classroom,Can you say red?,Red.,original_adaptation,listen-speak,word
+GS1-04-3,1,In the classroom,In the classroom,What is this?,A pen.,original_adaptation,listen-speak,word
+GS1-05-1,1,In the park,In the park,Can you say hat?,Hat.,original_adaptation,listen-speak,word
+GS1-05-2,1,In the park,In the park,Can you say horse?,Horse.,original_adaptation,listen-speak,word
+GS1-05-3,1,In the park,In the park,Is it a horse?,"Yes, a horse.",original_adaptation,listen-speak,word
+GS1-06-1,1,At the zoo,At the zoo,Can you say monkey?,Monkey.,original_adaptation,listen-speak,word
+GS1-06-2,1,At the zoo,At the zoo,Can you say mouse?,Mouse.,original_adaptation,listen-speak,word
+GS1-06-3,1,At the zoo,At the zoo,What can you see?,A monkey.,original_adaptation,listen-speak,word
+GS1-07-1,1,At home,At home,Can you say bed?,Bed.,original_adaptation,listen-speak,word
+GS1-07-2,1,At home,At home,Can you say mum?,Mum.,original_adaptation,listen-speak,word
+GS1-07-3,1,At home,At home,Where are you?,At home.,original_adaptation,listen-speak,word
+GS2-01-1,2,At my birthday party,At my birthday party,What do you like?,I like cake.,original_adaptation,listen-speak,simple_conversation
+GS2-01-2,2,At my birthday party,At my birthday party,Can you say pizza?,Pizza.,original_adaptation,listen-speak,simple_conversation
+GS2-01-3,2,At my birthday party,At my birthday party,Is the cake good?,"Yes, it is.",original_adaptation,listen-speak,simple_conversation
+GS2-02-1,2,In the backyard,In the backyard,What is this?,It is a kite.,original_adaptation,listen-speak,simple_conversation
+GS2-02-2,2,In the backyard,In the backyard,Can you see a bike?,"Yes, I can.",original_adaptation,listen-speak,simple_conversation
+GS2-02-3,2,In the backyard,In the backyard,What is the cat doing?,It is playing.,original_adaptation,listen-speak,simple_conversation
+GS2-03-1,2,At the seaside,At the seaside,What can you see?,I can see the sea.,original_adaptation,listen-speak,simple_conversation
+GS2-03-2,2,At the seaside,At the seaside,Is the sun hot?,"Yes, it is.",original_adaptation,listen-speak,simple_conversation
+GS2-03-3,2,At the seaside,At the seaside,Do you like the beach?,"Yes, I do.",original_adaptation,listen-speak,simple_conversation
+GS2-04-1,2,In the classroom,In the classroom,Is this your book?,"Yes, it is.",original_adaptation,listen-speak,simple_conversation
+GS2-04-2,2,In the classroom,In the classroom,Can you say pencil?,Pencil.,original_adaptation,listen-speak,simple_conversation
+GS2-04-3,2,In the classroom,In the classroom,What colour is the bag?,It is blue.,original_adaptation,listen-speak,simple_conversation
+GS2-05-1,2,On the farm,On the farm,Can you see a cow?,"Yes, I can.",original_adaptation,listen-speak,simple_conversation
+GS2-05-2,2,On the farm,On the farm,What is that?,That is a duck.,original_adaptation,listen-speak,simple_conversation
+GS2-05-3,2,On the farm,On the farm,Do you like hens?,"Yes, I do.",original_adaptation,listen-speak,simple_conversation
+GS2-06-1,2,At the zoo,At the zoo,What animal is this?,It is a tiger.,original_adaptation,listen-speak,simple_conversation
+GS2-06-2,2,At the zoo,At the zoo,Can a monkey jump?,"Yes, it can.",original_adaptation,listen-speak,simple_conversation
+GS2-06-3,2,At the zoo,At the zoo,What animal do you like?,I like elephants.,original_adaptation,listen-speak,simple_conversation
+GS2-07-1,2,At home,At home,Where is your book?,It is on the desk.,original_adaptation,listen-speak,simple_conversation
+GS2-07-2,2,At home,At home,Can you help me?,"Yes, I can.",original_adaptation,listen-speak,simple_conversation
+GS2-07-3,2,At home,At home,What do you do at home?,I read books.,original_adaptation,listen-speak,simple_conversation
+GS3-01-1,3,Hello,Hello,How are you today?,"I am fine, thank you.",original_adaptation,listen-speak,simple_conversation
+GS3-01-2,3,Hello,Hello,Can you say hello?,"Hello, Bibi!",original_adaptation,listen-speak,simple_conversation
+GS3-01-3,3,Hello,Hello,Are you ready to speak?,"Yes, I am.",original_adaptation,listen-speak,simple_conversation
+GS3-02-1,3,Our friends,Our friends,Who is your friend?,This is my friend.,original_adaptation,listen-speak,simple_conversation
+GS3-02-2,3,Our friends,Our friends,Is she your friend?,"Yes, she is.",original_adaptation,listen-speak,simple_conversation
+GS3-02-3,3,Our friends,Our friends,Who do you play with?,I play with my friends.,original_adaptation,listen-speak,simple_conversation
+GS3-03-1,3,My hobbies,My hobbies,What do you like doing?,I like drawing.,original_adaptation,listen-speak,simple_conversation
+GS3-03-2,3,My hobbies,My hobbies,Do you like singing?,"Yes, I do.",original_adaptation,listen-speak,simple_conversation
+GS3-03-3,3,My hobbies,My hobbies,Can you talk about a hobby?,I like playing football.,original_adaptation,listen-speak,simple_conversation
+GS3-04-1,3,Our school,Our school,What is your school like?,My school is big.,original_adaptation,listen-speak,simple_conversation
+GS3-04-2,3,Our school,Our school,Is your school near here?,"Yes, it is.",original_adaptation,listen-speak,simple_conversation
+GS3-04-3,3,Our school,Our school,What do you do at school?,I study and play.,original_adaptation,listen-speak,simple_conversation
+GS3-05-1,3,Colours,Colours,What colour is your pencil?,It is green.,original_adaptation,listen-speak,simple_conversation
+GS3-05-2,3,Colours,Colours,What colours do you like?,I like blue and yellow.,original_adaptation,listen-speak,simple_conversation
+GS3-05-3,3,Colours,Colours,Is your schoolbag red?,"No, it is black.",original_adaptation,listen-speak,simple_conversation
+GS3-06-1,3,My family,My family,Who is in your family?,My family has four people.,original_adaptation,listen-speak,simple_conversation
+GS3-06-2,3,My family,My family,Do you have a sister?,"Yes, I do.",original_adaptation,listen-speak,simple_conversation
+GS3-06-3,3,My family,My family,Who cooks at home?,My mother cooks at home.,original_adaptation,listen-speak,simple_conversation
+GS3-07-1,3,My pets,My pets,Do you have a pet?,"Yes, I have a cat.",original_adaptation,listen-speak,simple_conversation
+GS3-07-2,3,My pets,My pets,What colour is your pet?,My cat is white.,original_adaptation,listen-speak,simple_conversation
+GS3-07-3,3,My pets,My pets,What can your pet do?,My cat can run.,original_adaptation,listen-speak,simple_conversation
+GS4-01-1,4,My friends,My friends,Where is your friend from?,My friend is from Viet Nam.,original_adaptation,listen-speak,guided_conversation
+GS4-01-2,4,My friends,My friends,What is your friend like?,My friend is kind.,original_adaptation,listen-speak,guided_conversation
+GS4-01-3,4,My friends,My friends,What do you do together?,We play badminton together.,original_adaptation,listen-speak,guided_conversation
+GS4-02-1,4,Time and daily routines,Time and daily routines,What time do you get up?,I get up at six o’clock.,original_adaptation,listen-speak,guided_conversation
+GS4-02-2,4,Time and daily routines,Time and daily routines,What do you do in the morning?,I have breakfast and go to school.,original_adaptation,listen-speak,guided_conversation
+GS4-02-3,4,Time and daily routines,Time and daily routines,When do you do homework?,I do homework in the evening.,original_adaptation,listen-speak,guided_conversation
+GS4-03-1,4,My week,My week,What do you do on Monday?,I go to school on Monday.,original_adaptation,listen-speak,guided_conversation
+GS4-03-2,4,My week,My week,When do you visit your grandparents?,I visit them on Sunday.,original_adaptation,listen-speak,guided_conversation
+GS4-03-3,4,My week,My week,What is your favourite day?,My favourite day is Saturday.,original_adaptation,listen-speak,guided_conversation
+GS4-04-1,4,My birthday party,My birthday party,When is your birthday?,My birthday is in May.,original_adaptation,listen-speak,guided_conversation
+GS4-04-2,4,My birthday party,My birthday party,What do you do on your birthday?,I share cake with my family.,original_adaptation,listen-speak,guided_conversation
+GS4-04-3,4,My birthday party,My birthday party,What food do you like at parties?,I like fruit and cake.,original_adaptation,listen-speak,guided_conversation
+GS4-05-1,4,Things we can do,Things we can do,Can you ride a bike?,"Yes, I can ride a bike.",original_adaptation,listen-speak,guided_conversation
+GS4-05-2,4,Things we can do,Things we can do,What can your friend do?,My friend can swim.,original_adaptation,listen-speak,guided_conversation
+GS4-05-3,4,Things we can do,Things we can do,What do you want to learn?,I want to learn to sing.,original_adaptation,listen-speak,guided_conversation
+GS4-06-1,4,Our timetable,Our timetable,What subjects do you have today?,I have English and maths.,original_adaptation,listen-speak,guided_conversation
+GS4-06-2,4,Our timetable,Our timetable,When do you have music?,I have music on Friday.,original_adaptation,listen-speak,guided_conversation
+GS4-06-3,4,Our timetable,Our timetable,Do you have English tomorrow?,"Yes, I do.",original_adaptation,listen-speak,guided_conversation
+GS4-07-1,4,Our sports day,Our sports day,What sport do you like?,I like running.,original_adaptation,listen-speak,guided_conversation
+GS4-07-2,4,Our sports day,Our sports day,What do you do on sports day?,I play football with my class.,original_adaptation,listen-speak,guided_conversation
+GS4-07-3,4,Our sports day,Our sports day,Can your team win?,We will try our best.,original_adaptation,listen-speak,guided_conversation
+GS5-01-1,5,All about me!,All about me!,Can you introduce yourself?,I am a pupil in Grade Five.,original_adaptation,listen-speak,guided_conversation
+GS5-01-2,5,All about me!,All about me!,What do you enjoy at school?,I enjoy reading English stories.,original_adaptation,listen-speak,guided_conversation
+GS5-01-3,5,All about me!,All about me!,What is one thing you are good at?,I am good at drawing pictures.,original_adaptation,listen-speak,guided_conversation
+GS5-02-1,5,Our homes,Our homes,Can you describe your home?,My home has a small garden.,original_adaptation,listen-speak,guided_conversation
+GS5-02-2,5,Our homes,Our homes,Which room do you like most?,I like the living room because it is bright.,original_adaptation,listen-speak,guided_conversation
+GS5-02-3,5,Our homes,Our homes,What do you do at home after school?,I read a book and help my family.,original_adaptation,listen-speak,guided_conversation
+GS5-03-1,5,My foreign friends,My foreign friends,Where is your friend from?,My friend is from Singapore.,original_adaptation,listen-speak,guided_conversation
+GS5-03-2,5,My foreign friends,My foreign friends,What language does your friend speak?,My friend speaks English.,original_adaptation,listen-speak,guided_conversation
+GS5-03-3,5,My foreign friends,My foreign friends,What can you share with a new friend?,I can share stories about my school.,original_adaptation,listen-speak,guided_conversation
+GS5-04-1,5,Our free-time activities,Our free-time activities,What do you do in your free time?,I often play badminton.,original_adaptation,listen-speak,guided_conversation
+GS5-04-2,5,Our free-time activities,Our free-time activities,How often do you read books?,I read books three times a week.,original_adaptation,listen-speak,guided_conversation
+GS5-04-3,5,Our free-time activities,Our free-time activities,Why do you like that activity?,I like it because it is fun.,original_adaptation,listen-speak,guided_conversation
+GS5-05-1,5,My future job,My future job,What would you like to be?,I would like to be a teacher.,original_adaptation,listen-speak,guided_conversation
+GS5-05-2,5,My future job,My future job,Why do you want that job?,I want to help children learn.,original_adaptation,listen-speak,guided_conversation
+GS5-05-3,5,My future job,My future job,What can you do to prepare?,I can study hard and practise speaking.,original_adaptation,listen-speak,guided_conversation
+GS5-06-1,5,Our school trip,Our school trip,Where did your class go on a trip?,We visited a museum.,original_adaptation,listen-speak,guided_conversation
+GS5-06-2,5,Our school trip,Our school trip,What did you learn there?,I learned about local history.,original_adaptation,listen-speak,guided_conversation
+GS5-06-3,5,Our school trip,Our school trip,What was your favourite part?,I liked seeing old pictures.,original_adaptation,listen-speak,guided_conversation
+GS5-07-1,5,Staying healthy,Staying healthy,How do you keep healthy?,I eat vegetables and exercise.,original_adaptation,listen-speak,guided_conversation
+GS5-07-2,5,Staying healthy,Staying healthy,What should you do before bed?,I should brush my teeth.,original_adaptation,listen-speak,guided_conversation
+GS5-07-3,5,Staying healthy,Staying healthy,How can we stay active?,We can walk and play outside.,original_adaptation,listen-speak,guided_conversation

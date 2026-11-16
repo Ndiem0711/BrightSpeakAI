@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "G1-GREETINGS-01",
+    "grade": 1,
+    "topic": "Greetings",
+    "target_text": "Hello!",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-GREETINGS-02",
+    "grade": 1,
+    "topic": "Greetings",
+    "target_text": "Good morning!",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-GREETINGS-03",
+    "grade": 1,
+    "topic": "Greetings",
+    "target_text": "How are you?",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-GREETINGS-04",
+    "grade": 1,
+    "topic": "Greetings",
+    "target_text": "I am fine.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-GREETINGS-05",
+    "grade": 1,
+    "topic": "Greetings",
+    "target_text": "My name is Mai.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-COLOURS-01",
+    "grade": 1,
+    "topic": "Colours",
+    "target_text": "It is red.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-COLOURS-02",
+    "grade": 1,
+    "topic": "Colours",
+    "target_text": "This is blue.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-COLOURS-03",
+    "grade": 1,
+    "topic": "Colours",
+    "target_text": "I like yellow.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-COLOURS-04",
+    "grade": 1,
+    "topic": "Colours",
+    "target_text": "My bag is green.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-COLOURS-05",
+    "grade": 1,
+    "topic": "Colours",
+    "target_text": "Look at the pink flower.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-ANIMALS-01",
+    "grade": 1,
+    "topic": "Animals",
+    "target_text": "A cat.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-ANIMALS-02",
+    "grade": 1,
+    "topic": "Animals",
+    "target_text": "I see a dog.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-ANIMALS-03",
+    "grade": 1,
+    "topic": "Animals",
+    "target_text": "The fish is small.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-ANIMALS-04",
+    "grade": 1,
+    "topic": "Animals",
+    "target_text": "This is my bird.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-ANIMALS-05",
+    "grade": 1,
+    "topic": "Animals",
+    "target_text": "The rabbit is white.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-SCHOOL-01",
+    "grade": 1,
+    "topic": "School",
+    "target_text": "This is my pen.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-SCHOOL-02",
+    "grade": 1,
+    "topic": "School",
+    "target_text": "I have a book.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-SCHOOL-03",
+    "grade": 1,
+    "topic": "School",
+    "target_text": "Open your book.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-SCHOOL-04",
+    "grade": 1,
+    "topic": "School",
+    "target_text": "My teacher is kind.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-SCHOOL-05",
+    "grade": 1,
+    "topic": "School",
+    "target_text": "This is my classroom.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-FAMILY-01",
+    "grade": 1,
+    "topic": "Family",
+    "target_text": "This is my mum.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-FAMILY-02",
+    "grade": 1,
+    "topic": "Family",
+    "target_text": "I love my dad.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-FAMILY-03",
+    "grade": 1,
+    "topic": "Family",
+    "target_text": "I have a sister.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-FAMILY-04",
+    "grade": 1,
+    "topic": "Family",
+    "target_text": "This is my brother.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G1-FAMILY-05",
+    "grade": 1,
+    "topic": "Family",
+    "target_text": "We are a happy family.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-GREETINGS-01",
+    "grade": 2,
+    "topic": "Greetings",
+    "target_text": "Good afternoon!",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-GREETINGS-02",
+    "grade": 2,
+    "topic": "Greetings",
+    "target_text": "Nice to meet you.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-GREETINGS-03",
+    "grade": 2,
+    "topic": "Greetings",
+    "target_text": "My name is Linh.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-GREETINGS-04",
+    "grade": 2,
+    "topic": "Greetings",
+    "target_text": "How old are you?",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-GREETINGS-05",
+    "grade": 2,
+    "topic": "Greetings",
+    "target_text": "I am eight years old.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-SCHOOL-THINGS-01",
+    "grade": 2,
+    "topic": "School things",
+    "target_text": "Where is my pencil?",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-SCHOOL-THINGS-02",
+    "grade": 2,
+    "topic": "School things",
+    "target_text": "My bag is blue.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-SCHOOL-THINGS-03",
+    "grade": 2,
+    "topic": "School things",
+    "target_text": "I have two rulers.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-SCHOOL-THINGS-04",
+    "grade": 2,
+    "topic": "School things",
+    "target_text": "This is my notebook.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-SCHOOL-THINGS-05",
+    "grade": 2,
+    "topic": "School things",
+    "target_text": "My books are on the table.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-FOOD-01",
+    "grade": 2,
+    "topic": "Food",
+    "target_text": "I like rice.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-FOOD-02",
+    "grade": 2,
+    "topic": "Food",
+    "target_text": "Do you like bananas?",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-FOOD-03",
+    "grade": 2,
+    "topic": "Food",
+    "target_text": "I want some milk.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-FOOD-04",
+    "grade": 2,
+    "topic": "Food",
+    "target_text": "The cake is sweet.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-FOOD-05",
+    "grade": 2,
+    "topic": "Food",
+    "target_text": "I have eggs for breakfast.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-ANIMALS-01",
+    "grade": 2,
+    "topic": "Animals",
+    "target_text": "I can see three cats.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-ANIMALS-02",
+    "grade": 2,
+    "topic": "Animals",
+    "target_text": "The bird can fly.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-ANIMALS-03",
+    "grade": 2,
+    "topic": "Animals",
+    "target_text": "My dog is very friendly.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-ANIMALS-04",
+    "grade": 2,
+    "topic": "Animals",
+    "target_text": "The duck is yellow.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-ANIMALS-05",
+    "grade": 2,
+    "topic": "Animals",
+    "target_text": "There is a fish in the pond.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-HOBBIES-01",
+    "grade": 2,
+    "topic": "Hobbies",
+    "target_text": "I like to draw.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-HOBBIES-02",
+    "grade": 2,
+    "topic": "Hobbies",
+    "target_text": "I can sing a song.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-HOBBIES-03",
+    "grade": 2,
+    "topic": "Hobbies",
+    "target_text": "Let us play football.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-HOBBIES-04",
+    "grade": 2,
+    "topic": "Hobbies",
+    "target_text": "I ride my bike after school.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G2-HOBBIES-05",
+    "grade": 2,
+    "topic": "Hobbies",
+    "target_text": "I like reading picture books.",
+    "hint": "Listen, say the words slowly, and try again.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-FRIENDS-01",
+    "grade": 3,
+    "topic": "Our friends",
+    "target_text": "This is my new friend.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-FRIENDS-02",
+    "grade": 3,
+    "topic": "Our friends",
+    "target_text": "Her name is Hoa.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-FRIENDS-03",
+    "grade": 3,
+    "topic": "Our friends",
+    "target_text": "We play together at school.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-FRIENDS-04",
+    "grade": 3,
+    "topic": "Our friends",
+    "target_text": "Where is your friend from?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-FRIENDS-05",
+    "grade": 3,
+    "topic": "Our friends",
+    "target_text": "My best friend is very kind.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-SCHOOL-01",
+    "grade": 3,
+    "topic": "Our school",
+    "target_text": "This is our school library.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-SCHOOL-02",
+    "grade": 3,
+    "topic": "Our school",
+    "target_text": "The classroom is on the first floor.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-SCHOOL-03",
+    "grade": 3,
+    "topic": "Our school",
+    "target_text": "We have English on Monday.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-SCHOOL-04",
+    "grade": 3,
+    "topic": "Our school",
+    "target_text": "My favourite subject is English.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-SCHOOL-05",
+    "grade": 3,
+    "topic": "Our school",
+    "target_text": "I like my new classroom.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-BODIES-01",
+    "grade": 3,
+    "topic": "Our bodies",
+    "target_text": "I have two eyes and two ears.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-BODIES-02",
+    "grade": 3,
+    "topic": "Our bodies",
+    "target_text": "Touch your head, please.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-BODIES-03",
+    "grade": 3,
+    "topic": "Our bodies",
+    "target_text": "My hands are clean.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-BODIES-04",
+    "grade": 3,
+    "topic": "Our bodies",
+    "target_text": "I can run with my legs.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-OUR-BODIES-05",
+    "grade": 3,
+    "topic": "Our bodies",
+    "target_text": "Can you point to your nose?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-PETS-01",
+    "grade": 3,
+    "topic": "My pets",
+    "target_text": "I have a little brown dog.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-PETS-02",
+    "grade": 3,
+    "topic": "My pets",
+    "target_text": "My cat is sleeping on a chair.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-PETS-03",
+    "grade": 3,
+    "topic": "My pets",
+    "target_text": "What pets do you have?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-PETS-04",
+    "grade": 3,
+    "topic": "My pets",
+    "target_text": "The goldfish is in the bowl.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-PETS-05",
+    "grade": 3,
+    "topic": "My pets",
+    "target_text": "I feed my pet every morning.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-FAMILY-01",
+    "grade": 3,
+    "topic": "My family",
+    "target_text": "There are four people in my family.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-FAMILY-02",
+    "grade": 3,
+    "topic": "My family",
+    "target_text": "My mother is a nurse.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-FAMILY-03",
+    "grade": 3,
+    "topic": "My family",
+    "target_text": "I help my dad at home.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-FAMILY-04",
+    "grade": 3,
+    "topic": "My family",
+    "target_text": "What does your sister like?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G3-MY-FAMILY-05",
+    "grade": 3,
+    "topic": "My family",
+    "target_text": "We eat dinner together.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-MY-FRIENDS-01",
+    "grade": 4,
+    "topic": "My friends",
+    "target_text": "My friend likes playing chess.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-MY-FRIENDS-02",
+    "grade": 4,
+    "topic": "My friends",
+    "target_text": "We sometimes read books together.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-MY-FRIENDS-03",
+    "grade": 4,
+    "topic": "My friends",
+    "target_text": "What is your new friend like?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-MY-FRIENDS-04",
+    "grade": 4,
+    "topic": "My friends",
+    "target_text": "She is tall and friendly.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-MY-FRIENDS-05",
+    "grade": 4,
+    "topic": "My friends",
+    "target_text": "I enjoy talking with my friends.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-DAILY-ROUTINES-01",
+    "grade": 4,
+    "topic": "Daily routines",
+    "target_text": "I get up at six thirty.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-DAILY-ROUTINES-02",
+    "grade": 4,
+    "topic": "Daily routines",
+    "target_text": "I brush my teeth before breakfast.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-DAILY-ROUTINES-03",
+    "grade": 4,
+    "topic": "Daily routines",
+    "target_text": "What time do you go to school?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-DAILY-ROUTINES-04",
+    "grade": 4,
+    "topic": "Daily routines",
+    "target_text": "I do my homework after dinner.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-DAILY-ROUTINES-05",
+    "grade": 4,
+    "topic": "Daily routines",
+    "target_text": "I usually go to bed at nine.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-TIMETABLE-01",
+    "grade": 4,
+    "topic": "Our timetable",
+    "target_text": "We have Science on Tuesday.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-TIMETABLE-02",
+    "grade": 4,
+    "topic": "Our timetable",
+    "target_text": "What subjects do you have today?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-TIMETABLE-03",
+    "grade": 4,
+    "topic": "Our timetable",
+    "target_text": "English is my favourite subject.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-TIMETABLE-04",
+    "grade": 4,
+    "topic": "Our timetable",
+    "target_text": "We have music twice a week.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-TIMETABLE-05",
+    "grade": 4,
+    "topic": "Our timetable",
+    "target_text": "I study with my classmates.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-BIRTHDAY-PARTY-01",
+    "grade": 4,
+    "topic": "Birthday party",
+    "target_text": "My birthday is in August.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-BIRTHDAY-PARTY-02",
+    "grade": 4,
+    "topic": "Birthday party",
+    "target_text": "Would you like to come to my party?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-BIRTHDAY-PARTY-03",
+    "grade": 4,
+    "topic": "Birthday party",
+    "target_text": "I want to invite my friends.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-BIRTHDAY-PARTY-04",
+    "grade": 4,
+    "topic": "Birthday party",
+    "target_text": "We will play games together.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-BIRTHDAY-PARTY-05",
+    "grade": 4,
+    "topic": "Birthday party",
+    "target_text": "Thank you for the birthday gift.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-SPORTS-DAY-01",
+    "grade": 4,
+    "topic": "Our sports day",
+    "target_text": "I can run very fast.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-SPORTS-DAY-02",
+    "grade": 4,
+    "topic": "Our sports day",
+    "target_text": "Which sports do you like?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-SPORTS-DAY-03",
+    "grade": 4,
+    "topic": "Our sports day",
+    "target_text": "We played badminton yesterday.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-SPORTS-DAY-04",
+    "grade": 4,
+    "topic": "Our sports day",
+    "target_text": "Our team won the school game.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G4-OUR-SPORTS-DAY-05",
+    "grade": 4,
+    "topic": "Our sports day",
+    "target_text": "Sport helps me stay healthy.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-DAILY-ROUTINE-01",
+    "grade": 5,
+    "topic": "My daily routine",
+    "target_text": "I help my parents after school.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-DAILY-ROUTINE-02",
+    "grade": 5,
+    "topic": "My daily routine",
+    "target_text": "How often do you practise English?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-DAILY-ROUTINE-03",
+    "grade": 5,
+    "topic": "My daily routine",
+    "target_text": "I always do my homework before dinner.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-DAILY-ROUTINE-04",
+    "grade": 5,
+    "topic": "My daily routine",
+    "target_text": "I sometimes read a book before bed.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-DAILY-ROUTINE-05",
+    "grade": 5,
+    "topic": "My daily routine",
+    "target_text": "My sister usually takes the bus to school.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-HEALTHY-LIVING-01",
+    "grade": 5,
+    "topic": "Healthy living",
+    "target_text": "You should drink enough water.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-HEALTHY-LIVING-02",
+    "grade": 5,
+    "topic": "Healthy living",
+    "target_text": "I have a sore throat today.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-HEALTHY-LIVING-03",
+    "grade": 5,
+    "topic": "Healthy living",
+    "target_text": "What do you do to stay healthy?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-HEALTHY-LIVING-04",
+    "grade": 5,
+    "topic": "Healthy living",
+    "target_text": "You should wash your hands before eating.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-HEALTHY-LIVING-05",
+    "grade": 5,
+    "topic": "Healthy living",
+    "target_text": "I go swimming twice a week.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-FUTURE-PLANS-01",
+    "grade": 5,
+    "topic": "My future plans",
+    "target_text": "I want to become a teacher.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-FUTURE-PLANS-02",
+    "grade": 5,
+    "topic": "My future plans",
+    "target_text": "What would you like to do in the future?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-FUTURE-PLANS-03",
+    "grade": 5,
+    "topic": "My future plans",
+    "target_text": "I want to help people in my community.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-FUTURE-PLANS-04",
+    "grade": 5,
+    "topic": "My future plans",
+    "target_text": "My dream is to become a scientist.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-MY-FUTURE-PLANS-05",
+    "grade": 5,
+    "topic": "My future plans",
+    "target_text": "I enjoy learning new things every day.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-PLACES-TO-VISIT-01",
+    "grade": 5,
+    "topic": "Places to visit",
+    "target_text": "I would like to visit the museum.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-PLACES-TO-VISIT-02",
+    "grade": 5,
+    "topic": "Places to visit",
+    "target_text": "How can I get to the post office?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-PLACES-TO-VISIT-03",
+    "grade": 5,
+    "topic": "Places to visit",
+    "target_text": "Turn left at the traffic lights.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-PLACES-TO-VISIT-04",
+    "grade": 5,
+    "topic": "Places to visit",
+    "target_text": "We visited a beautiful park last weekend.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-PLACES-TO-VISIT-05",
+    "grade": 5,
+    "topic": "Places to visit",
+    "target_text": "I would like to travel to Da Nang.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-OUR-ENVIRONMENT-01",
+    "grade": 5,
+    "topic": "Our environment",
+    "target_text": "We should recycle paper and plastic.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-OUR-ENVIRONMENT-02",
+    "grade": 5,
+    "topic": "Our environment",
+    "target_text": "Please turn off the lights when you leave.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-OUR-ENVIRONMENT-03",
+    "grade": 5,
+    "topic": "Our environment",
+    "target_text": "I bring a reusable bottle to school.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-OUR-ENVIRONMENT-04",
+    "grade": 5,
+    "topic": "Our environment",
+    "target_text": "We can plant more trees in our garden.",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  },
+  {
+    "id": "G5-OUR-ENVIRONMENT-05",
+    "grade": 5,
+    "topic": "Our environment",
+    "target_text": "How can we keep our classroom clean?",
+    "hint": "Listen to the model and repeat with a natural rhythm.",
+    "focus_sound": ""
+  }
+]

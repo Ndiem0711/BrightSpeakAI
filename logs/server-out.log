@@ -1,0 +1,21 @@
+INFO:     127.0.0.1:58173 - "GET /api/v1/system/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54892 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54892 - "GET /static/styles.css?v=13 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59384 - "GET /static/app.js?v=13 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52179 - "GET /static/features.js?v=13 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60611 - "GET /static/v13.js?v=13 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52179 - "GET /api/v1/system/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52179 - "GET /api/v1/system/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52179 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52179 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52179 - "GET /api/v1/progress/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52179 - "GET /api/v1/speaking/today HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52179 - "GET /api/v1/learning/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54598 - "GET /api/v1/lessons HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54598 - "GET /api/v1/conversation/topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53627 - "GET /static/bibi-robot.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52430 - "GET /api/v1/speaking/today HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54598 - "GET /api/v1/live/prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53627 - "GET /api/v1/progress/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53627 - "GET /api/v1/speaking/today HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53627 - "GET /api/v1/learning/recommendations HTTP/1.1" 200 OK

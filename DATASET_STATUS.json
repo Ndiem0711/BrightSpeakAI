@@ -1,0 +1,15 @@
+{
+  "project": "BrightSpeakAI V13",
+  "lesson_text_count": 125,
+  "lesson_manifest": "data/lesson_manifest.csv",
+  "audio_samples_bundled": 0,
+  "public_audio_dataset": "Google mini Speech Commands (external, download opt-in)",
+  "public_audio_downloaded": true,
+  "trained_model_bundled": true,
+  "cnn_training_script_included": true,
+  "whisper_weights_bundled": false,
+  "phoneme_graded_child_speech_bundled": false,
+  "notes": "No model quality estimates without running training and child speech evaluation.",
+  "training_task": "8-class keyword recognition, not pronunciation scoring",
+  "dataset_audio_in_delivery": false
+}
