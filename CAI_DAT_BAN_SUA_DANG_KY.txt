@@ -1,0 +1,14 @@
+BAN SUA DANG KY V13.0.1 - KHONG CAN OTP
+
+1. Giai nen ZIP nay.
+2. Mo GitHub Ndiem0711/BrightSpeakAI > Add file > Upload files.
+3. Keo NGUYEN thu muc app va file VERSION.txt vao vung upload, chon Commit changes.
+Khong upload thu muc bao ngoai. Cac file cung duong dan se duoc cap nhat.
+4. Render tu build lai. Khi Live, mo website va nhan Ctrl+F5 de tai giao dien moi.
+5. Thu dang ky bang EMAIL KHAC voi email Admin da tao. Khong con buoc nhap OTP.
+
+Neu Render dang co REGISTRATION_MODE=otp thi doi thanh direct; neu chua co thi khong can them.
+Khong can bat DEMO_OTP, khong can Resend de dang ky HS.
+Email chua xac minh quyen so huu; quen mat khau va loi moi qua email van can dich vu gui thu.
+64 test tu dong da qua, gom 6 test rieng cho dang ky khong OTP.
+Ban sua chua duoc upload len GitHub hay trien khai trong phien nay.

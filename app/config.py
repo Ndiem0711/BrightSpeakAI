@@ -56,3 +56,8 @@ if APP_ENV == 'cloud' and (len(SECRET_KEY) < 32 or SECRET_KEY == 'brightspeak-lo
     raise RuntimeError('Cloud requires a unique SECRET_KEY of at least 32 characters')
 if APP_ENV == 'cloud' and DEMO_OTP:
     raise RuntimeError('Cloud requires DEMO_OTP=false')
+
+# V13.0.1: direct signup is intentional; SMTP is optional for this flow.
+REGISTRATION_MODE = os.getenv('REGISTRATION_MODE', 'direct').strip().lower()
+if REGISTRATION_MODE not in {'direct', 'otp'}:
+    raise RuntimeError('REGISTRATION_MODE must be direct or otp')

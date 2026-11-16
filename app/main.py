@@ -48,7 +48,7 @@ from .gemini import gemini
 from .scoring import acoustic_features, score_pronunciation, validate_speech_signal
 from .adaptive import recommend_lessons
 from .audio_feedback import assess_audio
-from .config import AUDIO_FEEDBACK_ENABLED, GEMINI_LIVE_MODEL
+from .config import AUDIO_FEEDBACK_ENABLED, GEMINI_LIVE_MODEL, REGISTRATION_MODE
 from starlette.concurrency import run_in_threadpool
 from .asr import transcribe_audio, ASRUnavailable
 from .seed import seed_defaults
@@ -64,7 +64,7 @@ async def lifespan(_app: FastAPI):
 
 app = FastAPI(
     title="BrightSpeakAI",
-    version="13.0.0",
+    version="13.0.1",
     description="Multimodal AI English pronunciation and speaking practice for primary learners.",
     lifespan=lifespan,
 )
@@ -122,6 +122,7 @@ def public_user(user: dict[str, Any]) -> dict[str, Any]:
         "role": user["role"],
         "grade": user.get("grade"),
         "verified": bool(user["verified"]),
+        "email_verified": bool(user.get("email_verified", 0)),
         "active": bool(user["active"]),
     }
 
@@ -243,10 +244,11 @@ def health() -> dict[str, Any]:
     return {
         "status": "ok",
         "app": "BrightSpeak AI",
-        "version": "13.0.0",
+        "version": "13.0.1",
         "environment": APP_ENV,
         "gemini_enabled": gemini.enabled,
         "email_enabled": email_ready(),
+        "registration_mode": REGISTRATION_MODE,
         "gemini_model": GEMINI_MODEL,
         "local_asr_available": transcribe_audio.available(),
         "live_enabled": gemini.enabled,
@@ -260,20 +262,37 @@ def register(payload: RegisterRequest) -> dict[str, Any]:
         raise HTTPException(status_code=422, detail='Hai mật khẩu không trùng khớp')
     if APP_ENV != 'local' and not payload.guardian_confirmed:
         raise HTTPException(status_code=422, detail='Cần có sự đồng ý của người giám hộ trước khi đăng ký cho trẻ')
-    if APP_ENV != "local" and not email_ready():
-        raise HTTPException(status_code=503, detail="Production registration requires SMTP verification; contact the administrator.")
+    direct = REGISTRATION_MODE == 'direct'
+    if not direct and APP_ENV != "local" and not email_ready():
+        raise HTTPException(status_code=503, detail="Chưa cấu hình gửi email xác minh. Vui lòng liên hệ quản trị viên.")
     if not EMAIL_RE.match(email):
         raise HTTPException(status_code=400, detail="Invalid email format")
-    if db.fetchone("SELECT id FROM users WHERE email = ?", (email,)):
-        raise HTTPException(status_code=409, detail="Email already registered")
+    existing = db.fetchone("SELECT * FROM users WHERE email = ?", (email,))
+    if existing:
+        # Resume only a pending student account after proving its existing password.
+        # Never overwrite an active account, admin account or password on re-registration.
+        if (direct and existing['role'] == 'student' and not existing['verified']
+                and existing['active'] and verify_password(payload.password, existing['password_hash'])):
+            db.execute('UPDATE users SET verified=1 WHERE id=?', (existing['id'],))
+            db.execute('UPDATE otp_codes SET used=1 WHERE user_id=?', (existing['id'],))
+            existing['verified'] = 1
+            return {'message': 'Tài khoản đã được kích hoạt. Em có thể bắt đầu luyện tập.',
+                'requires_verification': False, 'email_verified': False,
+                'user': public_user(existing), **token_pair(existing)}
+        raise HTTPException(status_code=409, detail="Email này đã có tài khoản. Hãy chuyển sang Đăng nhập hoặc dùng email khác.")
     user_id = str(uuid.uuid4())
     db.execute(
         """
         INSERT INTO users(id,email,password_hash,full_name,role,grade,verified,active,created_at)
         VALUES(?,?,?,?,?,?,?,?,?)
         """,
-        (user_id, email, hash_password(payload.password), payload.full_name.strip(), "student", payload.grade, 0, 1, iso_now()),
+        (user_id, email, hash_password(payload.password), payload.full_name.strip(), "student", payload.grade, int(direct), 1, iso_now()),
     )
+    if direct:
+        user = db.fetchone('SELECT * FROM users WHERE id=?', (user_id,))
+        return {'message': 'Đăng ký thành công. Em có thể bắt đầu luyện tập.',
+            'requires_verification': False, 'email_verified': False,
+            'user': public_user(user), **token_pair(user)}
     code = f"{random.randint(0, 999999):06d}"
     otp_id = str(uuid.uuid4())
     expires = (utcnow() + timedelta(minutes=5)).isoformat()
@@ -288,6 +307,7 @@ def register(payload: RegisterRequest) -> dict[str, Any]:
         raise HTTPException(status_code=502, detail='Không gửi được mã xác minh. Vui lòng thử lại sau.')
     response: dict[str, Any] = {
         "message": "Account created. Verify the 6-digit code.",
+        "requires_verification": True,
         "email_delivery": "smtp" if sent else "demo",
     }
     if DEMO_OTP and APP_ENV == "local":
@@ -317,7 +337,7 @@ def verify_otp(payload: VerifyRequest) -> dict[str, Any]:
     if payload.code != otp["code"]:
         raise HTTPException(status_code=400, detail="Incorrect verification code")
     db.execute("UPDATE otp_codes SET used = 1 WHERE id = ?", (otp["id"],))
-    db.execute("UPDATE users SET verified = 1 WHERE id = ?", (user["id"],))
+    db.execute("UPDATE users SET verified = 1, email_verified = 1 WHERE id = ?", (user["id"],))
     verified = db.fetchone("SELECT * FROM users WHERE id = ?", (user["id"],))
     assert verified is not None
     return {"message": "Account verified", "user": public_user(verified), **token_pair(verified)}

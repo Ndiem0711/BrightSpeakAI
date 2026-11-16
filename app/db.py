@@ -216,6 +216,13 @@ class Database:
                 lesson_columns = {r['name'] for r in conn.execute('PRAGMA table_info(lessons)').fetchall()}
                 if 'owner_teacher_id' not in lesson_columns:
                     conn.execute('ALTER TABLE lessons ADD COLUMN owner_teacher_id TEXT')
+            # Activation and actual email verification are distinct states.
+            if self.is_postgres:
+                conn.execute('ALTER TABLE users ADD COLUMN IF NOT EXISTS email_verified INTEGER NOT NULL DEFAULT 0')
+            else:
+                user_cols={row['name'] for row in conn.execute('PRAGMA table_info(users)').fetchall()}
+                if 'email_verified' not in user_cols:
+                    conn.execute('ALTER TABLE users ADD COLUMN email_verified INTEGER NOT NULL DEFAULT 0')
             # Useful indexes for dashboards and progress queries.
             indexes = [
                 "CREATE INDEX IF NOT EXISTS idx_attempts_user_created ON attempts(user_id, created_at)",
