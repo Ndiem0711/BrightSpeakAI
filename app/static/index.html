@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BrightSpeakAI – Luyện nói tiếng Anh</title>
+  <link rel="stylesheet" href="/static/styles.css?v=20261123-v20-fastfix2" />
+</head>
+<body>
+  <div id="toast" class="toast"></div>
+
+  <main id="authView" class="auth-wrap">
+    <section class="auth-hero">
+      <div class="brand-mark">B</div>
+      <p class="eyebrow">MULTIMODAL ENGLISH LEARNING</p>
+      <h1>BrightSpeak<span>AI</span></h1>
+      <p class="hero-copy">Luyện phát âm, nói với AI, nhìn tranh và giao tiếp — được cá nhân hóa cho học sinh tiểu học.</p>
+      <div class="hero-pills"><span>🎤 Pronunciation</span><span>💬 AI Talk</span><span>🖼️ Look & Speak</span><span>📊 Progress</span></div>
+      <div class="demo-card hidden">
+        <strong>Tài khoản demo trên máy này</strong>
+        <small>HS: student@demo.com / student123</small>
+        <small>GV: teacher@demo.com / teacher123</small>
+        <small>Admin: admin@demo.com / admin123</small>
+      </div>
+    </section>
+
+    <section class="auth-panel">
+      <div class="auth-tabs"><button class="tab active" data-auth="login">Đăng nhập</button><button class="tab" data-auth="register">Đăng ký</button></div>
+      <form id="loginForm" class="auth-form">
+        <h2>Chào mừng trở lại 👋</h2><p>Đăng nhập để tiếp tục hành trình học tiếng Anh.</p>
+        <label>Email<input id="loginEmail" type="email" autocomplete="username" required /></label>
+        <label>Mật khẩu<input id="loginPassword" type="password" autocomplete="current-password" required /></label>
+        <div class="v11-auth-extra"><button type="button" id="forgotPasswordBtn" class="v11-textlink">Quên mật khẩu?</button></div>
+        <button class="primary wide" type="submit">Đăng nhập</button>
+      </form>
+      <form id="registerForm" class="auth-form hidden">
+        <h2>Tạo tài khoản học sinh</h2><p>Tạo tài khoản để bắt đầu luyện tiếng Anh.</p>
+        <label>Họ tên<input id="regName" required minlength="2" /></label>
+        <label>Email<input id="regEmail" type="email" required /></label>
+        <label>Mật khẩu mới (tối thiểu 8 ký tự)<input id="regPassword" type="password" minlength="8" autocomplete="new-password" required /></label>
+        <label>Xác nhận mật khẩu<input id="regConfirm" type="password" minlength="8" autocomplete="new-password" required /></label>
+        <label>Lớp<select id="regGrade"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></label>
+        <label class="v11-guardian"><input type="checkbox" id="regGuardian" required /> Tôi là người giám hộ hoặc đã có sự đồng ý phù hợp để tạo tài khoản học sinh.</label>
+        <p class="v11-guidance">Tài khoản học sinh chỉ dùng để luyện tiếng Anh; không yêu cầu thông tin cá nhân nhạy cảm.</p>
+        <div class="captcha-field"><span class="captcha-heading">Nhập mã CAPTCHA trong hình</span>
+          <div class="captcha-preview"><img id="regCaptchaImage" width="238" height="84" alt="Mã CAPTCHA" />
+          <button type="button" id="regCaptchaRefresh" class="secondary" title="Đổi mã CAPTCHA">↻ Mã khác</button></div>
+          <input id="regCaptchaText" required minlength="5" maxlength="5" autocomplete="off" autocapitalize="characters"
+                 spellcheck="false" placeholder="Nhập 5 ký tự" aria-label="Nhập mã CAPTCHA hiển thị trong hình" />
+          <p id="regCaptchaHelp" class="v11-guidance">Mã có hiệu lực 5 phút; nhấn Mã khác nếu khó đọc.</p>
+        </div>
+        <button class="primary wide" type="submit">Tạo tài khoản học sinh</button>
+      </form>
+      <form id="forgotForm" class="auth-form hidden"><h2>Khôi phục mật khẩu</h2><p>Nhập email đã đăng ký. Hệ thống sẽ gửi liên kết một lần để đặt lại mật khẩu (nếu email tồn tại).</p>
+        <label>Email tài khoản<input id="forgotEmail" type="email" autocomplete="email" required /></label><button class="primary wide" type="submit">Gửi liên kết đặt lại</button><button type="button" class="v11-textlink" id="forgotBack">Quay lại đăng nhập</button></form>
+      <form id="resetForm" class="auth-form hidden"><h2>Thiết lập mật khẩu</h2><p id="resetInstructions">Đặt mật khẩu mới cho tài khoản.</p>
+        <label>Mật khẩu mới<input id="resetNewPass" type="password" minlength="8" autocomplete="new-password" required /></label>
+        <label>Xác nhận mật khẩu<input id="resetConfirmPass" type="password" minlength="8" autocomplete="new-password" required /></label>
+        <button class="primary wide" type="submit">Lưu mật khẩu</button><button class="v11-textlink" id="resetBack" type="button">Về đăng nhập</button></form>
+    </section>
+  </main>
+
+  <div id="appView" class="app-shell hidden">
+    <aside class="sidebar">
+      <div class="side-brand"><div class="brand-mark small">B</div><div><strong>BrightSpeakAI</strong><span>Primary English Lab</span></div></div>
+      <nav id="nav">
+        <button data-page="dashboard" class="nav-item active">🏠 <span>Trang chủ</span></button>
+        <button data-page="pronunciation" class="nav-item student-only">🎤 <span>Luyện phát âm</span></button>
+        <button data-page="conversation" class="nav-item student-only">💬 <span>Nói với AI</span></button>
+        <button data-page="look" class="nav-item student-only">🖼️ <span>Look & Speak</span></button>
+        <button data-page="live" class="nav-item student-only">📹 <span>Face-to-face AI</span></button>
+        <button data-page="progress" class="nav-item student-only">📈 <span>Tiến bộ</span></button>
+        <button data-page="teacher" class="nav-item teacher-only hidden">👩‍🏫 <span>Teacher</span></button>
+        <button data-page="admin" class="nav-item admin-only hidden">⚙️ <span>Admin</span></button>
+        <button data-page="profile" class="nav-item">👤 <span>Hồ sơ của tôi</span></button>
+      </nav>
+      <div class="side-footer"><div id="sideUser" class="user-mini"></div><button id="logoutBtn" class="ghost wide">Đăng xuất</button></div>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar"><div><p class="eyebrow">BRIGHTSPEAKAI · SPEAKING LAB</p><h2 id="pageTitle">Trang chủ</h2></div><div class="status-badges"><span id="aiStatus" class="status">AI: checking…</span><span class="status good">● Sẵn sàng</span></div></header>
+      <div id="content" class="content"></div>
+    </section>
+  </div>
+
+  <script src="/static/app.js?v=20261123-v20-fastfix2"></script>
+  <script src="/static/live-hints.js?v=20261123-v20-fastfix2"></script>
+  <script src="/static/features.js?v=20261123-v20-fastfix2"></script>
+  <script src="/static/learning-flow.js?v=20261123-v20-fastfix2"></script>
+  <script src="/static/audio-index.js?v=20261123-v20-fastfix2"></script>
+  <script src="/static/reading.js?v=20261123-v20-fastfix2"></script>
+  <script>
+  // Public Cloud uses administrator-created accounts; local demo logins are not valid there.
+  fetch('/api/v1/system/health', {cache:'no-store'}).then(r=>r.json()).then(info=>{
+    if(info.environment === 'local'){
+      document.querySelector('.demo-card')?.classList.remove('hidden');
+      return;
+    }
+    document.querySelector('.demo-card')?.remove();
+
+    const panel=document.querySelector('.auth-hero');
+    if(panel){const note=document.createElement('p');note.style.cssText='font-size:13px;line-height:1.6;color:#68618d;margin-top:22px';note.textContent='Bản cloud dùng tài khoản riêng. Học sinh có thể tự đăng ký. Giáo viên và quản trị viên dùng tài khoản được cấp.';panel.appendChild(note);}
+  }).catch(()=>{});
+  </script>
+</body>
+</html>
