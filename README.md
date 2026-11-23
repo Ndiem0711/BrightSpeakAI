@@ -23,9 +23,8 @@
 - Xem `HUONG_DAN_DEPLOY_CLOUD.md` để đưa mã nguồn lên Render. Mã mới phải nằm tại **gốc repository** cùng `app/main.py` và `requirements.txt`.
 
 
-## V20 – bản tối ưu tốc độ Luyện phát âm và Look & Speak
+## Tốc độ Luyện phát âm và Look & Speak
 
-Bản vá cùng phiên bản V20 này tham khảo lại cách gọi Gemini đơn giản của V12.
 - Luyện phát âm dùng `GEMINI_FAST_MODEL=gemini-3.5-flash-lite` cho ASR; không cài Whisper.
 - Look & Speak (ghi âm) gửi ảnh + âm thanh trong **một** lượt Gemini, không gọi hai lần nối tiếp.
 - WAV được chuẩn hóa về 16 kHz, ảnh lớn được giảm kích thước trước khi tải lên.
@@ -33,4 +32,3 @@ Bản vá cùng phiên bản V20 này tham khảo lại cách gọi Gemini đơn
 - Thời gian chờ các tác vụ ngắn mặc định 15 giây/lượt, tối đa thử thêm một model dự phòng.
 - Nếu API bị giới hạn/quá tải, hệ thống trả lỗi cụ thể, **không bịa transcript hoặc điểm số**.
 
-Đọc `HUONG_DAN_FIX_NHAN_DANG_V20.md` để xem chi tiết. Mức nhanh/chậm thực tế phụ thuộc mạng, Gemini API, độ dài âm thanh và dữ liệu của người học.
