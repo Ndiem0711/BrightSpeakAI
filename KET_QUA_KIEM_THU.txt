@@ -1,0 +1,17 @@
+BrightSpeakAI V20 – KẾT QUẢ KIỂM THỬ MÃ NGUỒN
+Ngày kiểm tra: 23/11/2026
+- Python pytest: 100/100 PASS (test chức năng, CAPTCHA, ASR với Gemini giả lập, REST API và WebSocket Live giả lập).
+- JavaScript: node --check app.js, features.js, live-hints.js: PASS.
+- Mô phỏng Face-to-face: bộ đếm 5 giây, không gợi ý sớm, hủy khi có giọng nói, không gợi ý lặp, hủy khi kết thúc/đổi câu: PASS.
+- Mô phỏng 2 lượt ghi âm liên tiếp: micro được giải phóng, bản ghi im lặng từ chối: PASS.
+- Mô phỏng phát âm thanh streaming 4 giây: PASS.
+- Backend Python preflight, cấu trúc app/main.py, YAML Render: PASS.
+- Loại bỏ imports/requirements Whisper và PyAV: PASS.
+CHƯA KIỂM CHỨNG: API key Gemini thật, quota, độ chính xác ASR, chấm phát âm trên dữ liệu HS, Live hội thoại bằng mic/loa trên Windows, Cloud Render Live.
+Giới hạn: các bài test tự động không thay thế chạy nghiệm thu trực tiếp trên máy/Render thực tế.
+
+
+=== V20 sửa tốc độ Luyện phát âm và Look & Speak (2026-11-23) ===
+Kiểm thử Python: 106/106 đạt (gồm 6 bài mới cho ASR nhanh, Gemini fallback, JSON, 1 lượt xử lí ảnh+audio).
+Kiểm thử JavaScript: WAV 48k→16k, hai lần ghi liên tiếp và giải phóng mic, hẹn giờ gợi ý Face-to-face, luồng phát audio – đều đạt trong môi trường mô phỏng.
+Đã kiểm tra cú pháp JS và Python. Không gọi Gemini API thật, không chạy Cloud/Windows micro thật trong môi trường kiểm thử.

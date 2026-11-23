@@ -1,0 +1,1076 @@
+{
+  "retired_lesson_ids": [
+    "G1-GREETINGS-01",
+    "G1-GREETINGS-02",
+    "G1-GREETINGS-03",
+    "G1-GREETINGS-04",
+    "G1-GREETINGS-05",
+    "G1-COLOURS-01",
+    "G1-COLOURS-02",
+    "G1-COLOURS-03",
+    "G1-COLOURS-04",
+    "G1-COLOURS-05",
+    "G1-ANIMALS-01",
+    "G1-ANIMALS-02",
+    "G1-ANIMALS-03",
+    "G1-ANIMALS-04",
+    "G1-ANIMALS-05",
+    "G1-SCHOOL-01",
+    "G1-SCHOOL-02",
+    "G1-SCHOOL-03",
+    "G1-SCHOOL-04",
+    "G1-SCHOOL-05",
+    "G1-FAMILY-01",
+    "G1-FAMILY-02",
+    "G1-FAMILY-03",
+    "G1-FAMILY-04",
+    "G1-FAMILY-05",
+    "G2-GREETINGS-01",
+    "G2-GREETINGS-02",
+    "G2-GREETINGS-03",
+    "G2-GREETINGS-04",
+    "G2-GREETINGS-05",
+    "G2-SCHOOL-THINGS-01",
+    "G2-SCHOOL-THINGS-02",
+    "G2-SCHOOL-THINGS-03",
+    "G2-SCHOOL-THINGS-04",
+    "G2-SCHOOL-THINGS-05",
+    "G2-FOOD-01",
+    "G2-FOOD-02",
+    "G2-FOOD-03",
+    "G2-FOOD-04",
+    "G2-FOOD-05",
+    "G2-ANIMALS-01",
+    "G2-ANIMALS-02",
+    "G2-ANIMALS-03",
+    "G2-ANIMALS-04",
+    "G2-ANIMALS-05",
+    "G2-HOBBIES-01",
+    "G2-HOBBIES-02",
+    "G2-HOBBIES-03",
+    "G2-HOBBIES-04",
+    "G2-HOBBIES-05",
+    "G3-OUR-FRIENDS-01",
+    "G3-OUR-FRIENDS-02",
+    "G3-OUR-FRIENDS-03",
+    "G3-OUR-FRIENDS-04",
+    "G3-OUR-FRIENDS-05",
+    "G3-OUR-SCHOOL-01",
+    "G3-OUR-SCHOOL-02",
+    "G3-OUR-SCHOOL-03",
+    "G3-OUR-SCHOOL-04",
+    "G3-OUR-SCHOOL-05",
+    "G3-OUR-BODIES-01",
+    "G3-OUR-BODIES-02",
+    "G3-OUR-BODIES-03",
+    "G3-OUR-BODIES-04",
+    "G3-OUR-BODIES-05",
+    "G3-MY-PETS-01",
+    "G3-MY-PETS-02",
+    "G3-MY-PETS-03",
+    "G3-MY-PETS-04",
+    "G3-MY-PETS-05",
+    "G3-MY-FAMILY-01",
+    "G3-MY-FAMILY-02",
+    "G3-MY-FAMILY-03",
+    "G3-MY-FAMILY-04",
+    "G3-MY-FAMILY-05",
+    "G4-MY-FRIENDS-01",
+    "G4-MY-FRIENDS-02",
+    "G4-MY-FRIENDS-03",
+    "G4-MY-FRIENDS-04",
+    "G4-MY-FRIENDS-05",
+    "G4-DAILY-ROUTINES-01",
+    "G4-DAILY-ROUTINES-02",
+    "G4-DAILY-ROUTINES-03",
+    "G4-DAILY-ROUTINES-04",
+    "G4-DAILY-ROUTINES-05",
+    "G4-OUR-TIMETABLE-01",
+    "G4-OUR-TIMETABLE-02",
+    "G4-OUR-TIMETABLE-03",
+    "G4-OUR-TIMETABLE-04",
+    "G4-OUR-TIMETABLE-05",
+    "G4-BIRTHDAY-PARTY-01",
+    "G4-BIRTHDAY-PARTY-02",
+    "G4-BIRTHDAY-PARTY-03",
+    "G4-BIRTHDAY-PARTY-04",
+    "G4-BIRTHDAY-PARTY-05",
+    "G4-OUR-SPORTS-DAY-01",
+    "G4-OUR-SPORTS-DAY-02",
+    "G4-OUR-SPORTS-DAY-03",
+    "G4-OUR-SPORTS-DAY-04",
+    "G4-OUR-SPORTS-DAY-05",
+    "G5-MY-DAILY-ROUTINE-01",
+    "G5-MY-DAILY-ROUTINE-02",
+    "G5-MY-DAILY-ROUTINE-03",
+    "G5-MY-DAILY-ROUTINE-04",
+    "G5-MY-DAILY-ROUTINE-05",
+    "G5-HEALTHY-LIVING-01",
+    "G5-HEALTHY-LIVING-02",
+    "G5-HEALTHY-LIVING-03",
+    "G5-HEALTHY-LIVING-04",
+    "G5-HEALTHY-LIVING-05",
+    "G5-MY-FUTURE-PLANS-01",
+    "G5-MY-FUTURE-PLANS-02",
+    "G5-MY-FUTURE-PLANS-03",
+    "G5-MY-FUTURE-PLANS-04",
+    "G5-MY-FUTURE-PLANS-05",
+    "G5-PLACES-TO-VISIT-01",
+    "G5-PLACES-TO-VISIT-02",
+    "G5-PLACES-TO-VISIT-03",
+    "G5-PLACES-TO-VISIT-04",
+    "G5-PLACES-TO-VISIT-05",
+    "G5-OUR-ENVIRONMENT-01",
+    "G5-OUR-ENVIRONMENT-02",
+    "G5-OUR-ENVIRONMENT-03",
+    "G5-OUR-ENVIRONMENT-04",
+    "G5-OUR-ENVIRONMENT-05"
+  ],
+  "prompts": [
+    {
+      "id": "GS1-01-1",
+      "grade": 1,
+      "question": "Can you say ball?",
+      "sample_answer": "Ball.",
+      "topic": "In the school playground",
+      "unit_title": "In the school playground",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-01-2",
+      "grade": 1,
+      "question": "Can you say bike?",
+      "sample_answer": "Bike.",
+      "topic": "In the school playground",
+      "unit_title": "In the school playground",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-01-3",
+      "grade": 1,
+      "question": "Can you see a ball?",
+      "sample_answer": "A ball.",
+      "topic": "In the school playground",
+      "unit_title": "In the school playground",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-02-1",
+      "grade": 1,
+      "question": "Can you say cup?",
+      "sample_answer": "Cup.",
+      "topic": "In the dining room",
+      "unit_title": "In the dining room",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-02-2",
+      "grade": 1,
+      "question": "Can you say cake?",
+      "sample_answer": "Cake.",
+      "topic": "In the dining room",
+      "unit_title": "In the dining room",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-02-3",
+      "grade": 1,
+      "question": "Is it a cup?",
+      "sample_answer": "Yes, a cup.",
+      "topic": "In the dining room",
+      "unit_title": "In the dining room",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-03-1",
+      "grade": 1,
+      "question": "Can you say apple?",
+      "sample_answer": "Apple.",
+      "topic": "At the street market",
+      "unit_title": "At the street market",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-03-2",
+      "grade": 1,
+      "question": "Can you say bag?",
+      "sample_answer": "Bag.",
+      "topic": "At the street market",
+      "unit_title": "At the street market",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-03-3",
+      "grade": 1,
+      "question": "Can you see an apple?",
+      "sample_answer": "An apple.",
+      "topic": "At the street market",
+      "unit_title": "At the street market",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-04-1",
+      "grade": 1,
+      "question": "Can you say pen?",
+      "sample_answer": "Pen.",
+      "topic": "In the classroom",
+      "unit_title": "In the classroom",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-04-2",
+      "grade": 1,
+      "question": "Can you say red?",
+      "sample_answer": "Red.",
+      "topic": "In the classroom",
+      "unit_title": "In the classroom",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-04-3",
+      "grade": 1,
+      "question": "What is this?",
+      "sample_answer": "A pen.",
+      "topic": "In the classroom",
+      "unit_title": "In the classroom",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-05-1",
+      "grade": 1,
+      "question": "Can you say hat?",
+      "sample_answer": "Hat.",
+      "topic": "In the park",
+      "unit_title": "In the park",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-05-2",
+      "grade": 1,
+      "question": "Can you say horse?",
+      "sample_answer": "Horse.",
+      "topic": "In the park",
+      "unit_title": "In the park",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-05-3",
+      "grade": 1,
+      "question": "Is it a horse?",
+      "sample_answer": "Yes, a horse.",
+      "topic": "In the park",
+      "unit_title": "In the park",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-06-1",
+      "grade": 1,
+      "question": "Can you say monkey?",
+      "sample_answer": "Monkey.",
+      "topic": "At the zoo",
+      "unit_title": "At the zoo",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-06-2",
+      "grade": 1,
+      "question": "Can you say mouse?",
+      "sample_answer": "Mouse.",
+      "topic": "At the zoo",
+      "unit_title": "At the zoo",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-06-3",
+      "grade": 1,
+      "question": "What can you see?",
+      "sample_answer": "A monkey.",
+      "topic": "At the zoo",
+      "unit_title": "At the zoo",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-07-1",
+      "grade": 1,
+      "question": "Can you say bed?",
+      "sample_answer": "Bed.",
+      "topic": "At home",
+      "unit_title": "At home",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-07-2",
+      "grade": 1,
+      "question": "Can you say mum?",
+      "sample_answer": "Mum.",
+      "topic": "At home",
+      "unit_title": "At home",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS1-07-3",
+      "grade": 1,
+      "question": "Where are you?",
+      "sample_answer": "At home.",
+      "topic": "At home",
+      "unit_title": "At home",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-01-1",
+      "grade": 2,
+      "question": "What do you like?",
+      "sample_answer": "I like cake.",
+      "topic": "At my birthday party",
+      "unit_title": "At my birthday party",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-01-2",
+      "grade": 2,
+      "question": "Can you say pizza?",
+      "sample_answer": "Pizza.",
+      "topic": "At my birthday party",
+      "unit_title": "At my birthday party",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-01-3",
+      "grade": 2,
+      "question": "Is the cake good?",
+      "sample_answer": "Yes, it is.",
+      "topic": "At my birthday party",
+      "unit_title": "At my birthday party",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-02-1",
+      "grade": 2,
+      "question": "What is this?",
+      "sample_answer": "It is a kite.",
+      "topic": "In the backyard",
+      "unit_title": "In the backyard",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-02-2",
+      "grade": 2,
+      "question": "Can you see a bike?",
+      "sample_answer": "Yes, I can.",
+      "topic": "In the backyard",
+      "unit_title": "In the backyard",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-02-3",
+      "grade": 2,
+      "question": "What is the cat doing?",
+      "sample_answer": "It is playing.",
+      "topic": "In the backyard",
+      "unit_title": "In the backyard",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-03-1",
+      "grade": 2,
+      "question": "What can you see?",
+      "sample_answer": "I can see the sea.",
+      "topic": "At the seaside",
+      "unit_title": "At the seaside",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-03-2",
+      "grade": 2,
+      "question": "Is the sun hot?",
+      "sample_answer": "Yes, it is.",
+      "topic": "At the seaside",
+      "unit_title": "At the seaside",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-03-3",
+      "grade": 2,
+      "question": "Do you like the beach?",
+      "sample_answer": "Yes, I do.",
+      "topic": "At the seaside",
+      "unit_title": "At the seaside",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-04-1",
+      "grade": 2,
+      "question": "Is this your book?",
+      "sample_answer": "Yes, it is.",
+      "topic": "In the classroom",
+      "unit_title": "In the classroom",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-04-2",
+      "grade": 2,
+      "question": "Can you say pencil?",
+      "sample_answer": "Pencil.",
+      "topic": "In the classroom",
+      "unit_title": "In the classroom",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-04-3",
+      "grade": 2,
+      "question": "What colour is the bag?",
+      "sample_answer": "It is blue.",
+      "topic": "In the classroom",
+      "unit_title": "In the classroom",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-05-1",
+      "grade": 2,
+      "question": "Can you see a cow?",
+      "sample_answer": "Yes, I can.",
+      "topic": "On the farm",
+      "unit_title": "On the farm",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-05-2",
+      "grade": 2,
+      "question": "What is that?",
+      "sample_answer": "That is a duck.",
+      "topic": "On the farm",
+      "unit_title": "On the farm",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-05-3",
+      "grade": 2,
+      "question": "Do you like hens?",
+      "sample_answer": "Yes, I do.",
+      "topic": "On the farm",
+      "unit_title": "On the farm",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-06-1",
+      "grade": 2,
+      "question": "What animal is this?",
+      "sample_answer": "It is a tiger.",
+      "topic": "At the zoo",
+      "unit_title": "At the zoo",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-06-2",
+      "grade": 2,
+      "question": "Can a monkey jump?",
+      "sample_answer": "Yes, it can.",
+      "topic": "At the zoo",
+      "unit_title": "At the zoo",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-06-3",
+      "grade": 2,
+      "question": "What animal do you like?",
+      "sample_answer": "I like elephants.",
+      "topic": "At the zoo",
+      "unit_title": "At the zoo",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-07-1",
+      "grade": 2,
+      "question": "Where is your book?",
+      "sample_answer": "It is on the desk.",
+      "topic": "At home",
+      "unit_title": "At home",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-07-2",
+      "grade": 2,
+      "question": "Can you help me?",
+      "sample_answer": "Yes, I can.",
+      "topic": "At home",
+      "unit_title": "At home",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS2-07-3",
+      "grade": 2,
+      "question": "What do you do at home?",
+      "sample_answer": "I read books.",
+      "topic": "At home",
+      "unit_title": "At home",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-01-1",
+      "grade": 3,
+      "question": "How are you today?",
+      "sample_answer": "I am fine, thank you.",
+      "topic": "Hello",
+      "unit_title": "Hello",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-01-2",
+      "grade": 3,
+      "question": "Can you say hello?",
+      "sample_answer": "Hello, Bibi!",
+      "topic": "Hello",
+      "unit_title": "Hello",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-01-3",
+      "grade": 3,
+      "question": "Are you ready to speak?",
+      "sample_answer": "Yes, I am.",
+      "topic": "Hello",
+      "unit_title": "Hello",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-02-1",
+      "grade": 3,
+      "question": "Who is your friend?",
+      "sample_answer": "This is my friend.",
+      "topic": "Our friends",
+      "unit_title": "Our friends",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-02-2",
+      "grade": 3,
+      "question": "Is she your friend?",
+      "sample_answer": "Yes, she is.",
+      "topic": "Our friends",
+      "unit_title": "Our friends",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-02-3",
+      "grade": 3,
+      "question": "Who do you play with?",
+      "sample_answer": "I play with my friends.",
+      "topic": "Our friends",
+      "unit_title": "Our friends",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-03-1",
+      "grade": 3,
+      "question": "What do you like doing?",
+      "sample_answer": "I like drawing.",
+      "topic": "My hobbies",
+      "unit_title": "My hobbies",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-03-2",
+      "grade": 3,
+      "question": "Do you like singing?",
+      "sample_answer": "Yes, I do.",
+      "topic": "My hobbies",
+      "unit_title": "My hobbies",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-03-3",
+      "grade": 3,
+      "question": "Can you talk about a hobby?",
+      "sample_answer": "I like playing football.",
+      "topic": "My hobbies",
+      "unit_title": "My hobbies",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-04-1",
+      "grade": 3,
+      "question": "What is your school like?",
+      "sample_answer": "My school is big.",
+      "topic": "Our school",
+      "unit_title": "Our school",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-04-2",
+      "grade": 3,
+      "question": "Is your school near here?",
+      "sample_answer": "Yes, it is.",
+      "topic": "Our school",
+      "unit_title": "Our school",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-04-3",
+      "grade": 3,
+      "question": "What do you do at school?",
+      "sample_answer": "I study and play.",
+      "topic": "Our school",
+      "unit_title": "Our school",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-05-1",
+      "grade": 3,
+      "question": "What colour is your pencil?",
+      "sample_answer": "It is green.",
+      "topic": "Colours",
+      "unit_title": "Colours",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-05-2",
+      "grade": 3,
+      "question": "What colours do you like?",
+      "sample_answer": "I like blue and yellow.",
+      "topic": "Colours",
+      "unit_title": "Colours",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-05-3",
+      "grade": 3,
+      "question": "Is your schoolbag red?",
+      "sample_answer": "No, it is black.",
+      "topic": "Colours",
+      "unit_title": "Colours",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-06-1",
+      "grade": 3,
+      "question": "Who is in your family?",
+      "sample_answer": "My family has four people.",
+      "topic": "My family",
+      "unit_title": "My family",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-06-2",
+      "grade": 3,
+      "question": "Do you have a sister?",
+      "sample_answer": "Yes, I do.",
+      "topic": "My family",
+      "unit_title": "My family",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-06-3",
+      "grade": 3,
+      "question": "Who cooks at home?",
+      "sample_answer": "My mother cooks at home.",
+      "topic": "My family",
+      "unit_title": "My family",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-07-1",
+      "grade": 3,
+      "question": "Do you have a pet?",
+      "sample_answer": "Yes, I have a cat.",
+      "topic": "My pets",
+      "unit_title": "My pets",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-07-2",
+      "grade": 3,
+      "question": "What colour is your pet?",
+      "sample_answer": "My cat is white.",
+      "topic": "My pets",
+      "unit_title": "My pets",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS3-07-3",
+      "grade": 3,
+      "question": "What can your pet do?",
+      "sample_answer": "My cat can run.",
+      "topic": "My pets",
+      "unit_title": "My pets",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-01-1",
+      "grade": 4,
+      "question": "Where is your friend from?",
+      "sample_answer": "My friend is from Viet Nam.",
+      "topic": "My friends",
+      "unit_title": "My friends",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-01-2",
+      "grade": 4,
+      "question": "What is your friend like?",
+      "sample_answer": "My friend is kind.",
+      "topic": "My friends",
+      "unit_title": "My friends",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-01-3",
+      "grade": 4,
+      "question": "What do you do together?",
+      "sample_answer": "We play badminton together.",
+      "topic": "My friends",
+      "unit_title": "My friends",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-02-1",
+      "grade": 4,
+      "question": "What time do you get up?",
+      "sample_answer": "I get up at six o’clock.",
+      "topic": "Time and daily routines",
+      "unit_title": "Time and daily routines",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-02-2",
+      "grade": 4,
+      "question": "What do you do in the morning?",
+      "sample_answer": "I have breakfast and go to school.",
+      "topic": "Time and daily routines",
+      "unit_title": "Time and daily routines",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-02-3",
+      "grade": 4,
+      "question": "When do you do homework?",
+      "sample_answer": "I do homework in the evening.",
+      "topic": "Time and daily routines",
+      "unit_title": "Time and daily routines",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-03-1",
+      "grade": 4,
+      "question": "What do you do on Monday?",
+      "sample_answer": "I go to school on Monday.",
+      "topic": "My week",
+      "unit_title": "My week",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-03-2",
+      "grade": 4,
+      "question": "When do you visit your grandparents?",
+      "sample_answer": "I visit them on Sunday.",
+      "topic": "My week",
+      "unit_title": "My week",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-03-3",
+      "grade": 4,
+      "question": "What is your favourite day?",
+      "sample_answer": "My favourite day is Saturday.",
+      "topic": "My week",
+      "unit_title": "My week",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-04-1",
+      "grade": 4,
+      "question": "When is your birthday?",
+      "sample_answer": "My birthday is in May.",
+      "topic": "My birthday party",
+      "unit_title": "My birthday party",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-04-2",
+      "grade": 4,
+      "question": "What do you do on your birthday?",
+      "sample_answer": "I share cake with my family.",
+      "topic": "My birthday party",
+      "unit_title": "My birthday party",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-04-3",
+      "grade": 4,
+      "question": "What food do you like at parties?",
+      "sample_answer": "I like fruit and cake.",
+      "topic": "My birthday party",
+      "unit_title": "My birthday party",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-05-1",
+      "grade": 4,
+      "question": "Can you ride a bike?",
+      "sample_answer": "Yes, I can ride a bike.",
+      "topic": "Things we can do",
+      "unit_title": "Things we can do",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-05-2",
+      "grade": 4,
+      "question": "What can your friend do?",
+      "sample_answer": "My friend can swim.",
+      "topic": "Things we can do",
+      "unit_title": "Things we can do",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-05-3",
+      "grade": 4,
+      "question": "What do you want to learn?",
+      "sample_answer": "I want to learn to sing.",
+      "topic": "Things we can do",
+      "unit_title": "Things we can do",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-06-1",
+      "grade": 4,
+      "question": "What subjects do you have today?",
+      "sample_answer": "I have English and maths.",
+      "topic": "Our timetable",
+      "unit_title": "Our timetable",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-06-2",
+      "grade": 4,
+      "question": "When do you have music?",
+      "sample_answer": "I have music on Friday.",
+      "topic": "Our timetable",
+      "unit_title": "Our timetable",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-06-3",
+      "grade": 4,
+      "question": "Do you have English tomorrow?",
+      "sample_answer": "Yes, I do.",
+      "topic": "Our timetable",
+      "unit_title": "Our timetable",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-07-1",
+      "grade": 4,
+      "question": "What sport do you like?",
+      "sample_answer": "I like running.",
+      "topic": "Our sports day",
+      "unit_title": "Our sports day",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-07-2",
+      "grade": 4,
+      "question": "What do you do on sports day?",
+      "sample_answer": "I play football with my class.",
+      "topic": "Our sports day",
+      "unit_title": "Our sports day",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS4-07-3",
+      "grade": 4,
+      "question": "Can your team win?",
+      "sample_answer": "We will try our best.",
+      "topic": "Our sports day",
+      "unit_title": "Our sports day",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-01-1",
+      "grade": 5,
+      "question": "Can you introduce yourself?",
+      "sample_answer": "I am a pupil in Grade Five.",
+      "topic": "All about me!",
+      "unit_title": "All about me!",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-01-2",
+      "grade": 5,
+      "question": "What do you enjoy at school?",
+      "sample_answer": "I enjoy reading English stories.",
+      "topic": "All about me!",
+      "unit_title": "All about me!",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-01-3",
+      "grade": 5,
+      "question": "What is one thing you are good at?",
+      "sample_answer": "I am good at drawing pictures.",
+      "topic": "All about me!",
+      "unit_title": "All about me!",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-02-1",
+      "grade": 5,
+      "question": "Can you describe your home?",
+      "sample_answer": "My home has a small garden.",
+      "topic": "Our homes",
+      "unit_title": "Our homes",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-02-2",
+      "grade": 5,
+      "question": "Which room do you like most?",
+      "sample_answer": "I like the living room because it is bright.",
+      "topic": "Our homes",
+      "unit_title": "Our homes",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-02-3",
+      "grade": 5,
+      "question": "What do you do at home after school?",
+      "sample_answer": "I read a book and help my family.",
+      "topic": "Our homes",
+      "unit_title": "Our homes",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-03-1",
+      "grade": 5,
+      "question": "Where is your friend from?",
+      "sample_answer": "My friend is from Singapore.",
+      "topic": "My foreign friends",
+      "unit_title": "My foreign friends",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-03-2",
+      "grade": 5,
+      "question": "What language does your friend speak?",
+      "sample_answer": "My friend speaks English.",
+      "topic": "My foreign friends",
+      "unit_title": "My foreign friends",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-03-3",
+      "grade": 5,
+      "question": "What can you share with a new friend?",
+      "sample_answer": "I can share stories about my school.",
+      "topic": "My foreign friends",
+      "unit_title": "My foreign friends",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-04-1",
+      "grade": 5,
+      "question": "What do you do in your free time?",
+      "sample_answer": "I often play badminton.",
+      "topic": "Our free-time activities",
+      "unit_title": "Our free-time activities",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-04-2",
+      "grade": 5,
+      "question": "How often do you read books?",
+      "sample_answer": "I read books three times a week.",
+      "topic": "Our free-time activities",
+      "unit_title": "Our free-time activities",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-04-3",
+      "grade": 5,
+      "question": "Why do you like that activity?",
+      "sample_answer": "I like it because it is fun.",
+      "topic": "Our free-time activities",
+      "unit_title": "Our free-time activities",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-05-1",
+      "grade": 5,
+      "question": "What would you like to be?",
+      "sample_answer": "I would like to be a teacher.",
+      "topic": "My future job",
+      "unit_title": "My future job",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-05-2",
+      "grade": 5,
+      "question": "Why do you want that job?",
+      "sample_answer": "I want to help children learn.",
+      "topic": "My future job",
+      "unit_title": "My future job",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-05-3",
+      "grade": 5,
+      "question": "What can you do to prepare?",
+      "sample_answer": "I can study hard and practise speaking.",
+      "topic": "My future job",
+      "unit_title": "My future job",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-06-1",
+      "grade": 5,
+      "question": "Where did your class go on a trip?",
+      "sample_answer": "We visited a museum.",
+      "topic": "Our school trip",
+      "unit_title": "Our school trip",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-06-2",
+      "grade": 5,
+      "question": "What did you learn there?",
+      "sample_answer": "I learned about local history.",
+      "topic": "Our school trip",
+      "unit_title": "Our school trip",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-06-3",
+      "grade": 5,
+      "question": "What was your favourite part?",
+      "sample_answer": "I liked seeing old pictures.",
+      "topic": "Our school trip",
+      "unit_title": "Our school trip",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-07-1",
+      "grade": 5,
+      "question": "How do you keep healthy?",
+      "sample_answer": "I eat vegetables and exercise.",
+      "topic": "Staying healthy",
+      "unit_title": "Staying healthy",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-07-2",
+      "grade": 5,
+      "question": "What should you do before bed?",
+      "sample_answer": "I should brush my teeth.",
+      "topic": "Staying healthy",
+      "unit_title": "Staying healthy",
+      "skill": "listen-speak"
+    },
+    {
+      "id": "GS5-07-3",
+      "grade": 5,
+      "question": "How can we stay active?",
+      "sample_answer": "We can walk and play outside.",
+      "topic": "Staying healthy",
+      "unit_title": "Staying healthy",
+      "skill": "listen-speak"
+    }
+  ]
+}

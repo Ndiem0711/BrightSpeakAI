@@ -1,0 +1,8 @@
+BrightSpeakAI – cập nhật kiến trúc Gemini-only
+- Đã loại bỏ nhánh ASR local, các tệp cài đặt và bộ khởi tạo mô hình cục bộ.
+- Gemini nhận dạng WAV; lỗi dịch vụ trả thông báo, không tạo transcript giả.
+- Face-to-face mặc định hỏi – đáp; Bibi được yêu cầu đọc toàn bộ câu hỏi thành tiếng.
+- Sau khi Bibi đọc xong: nếu HS chưa bắt đầu nói trong 5 giây, hiển thị câu trả lời mẫu và yêu cầu Bibi gợi ý bằng giọng nói.
+- HS có thể chủ động bấm Gợi ý trả lời; mỗi câu giới hạn một gợi ý tự động, hủy timer khi đổi câu/kết thúc.
+- Đăng ký giữ CAPTCHA, không cần OTP email; Admin tạo tài khoản theo quyền.
+- Render build giữ kiểm tra app/main.py tại root và cấu hình Gemini API key bằng Environment.

@@ -1,0 +1,12 @@
+BrightSpeakAI – HƯỚNG DẪN SỬ DỤNG
+
+1. Giải nén toàn bộ ứng dụng vào thư mục mới.
+2. Cài Python 3.11/3.12; chuẩn bị Internet và Gemini API key thật.
+3. Điền GEMINI_API_KEY=... trong GEMINI_KEY.txt, chỉ trên máy cá nhân.
+4. Nhấp đúp START-BRIGHTSPEAK.bat. Không cài Whisper hoặc mô hình nhận dạng giọng nói.
+5. HS đăng ký bằng CAPTCHA, không cần OTP email.
+6. Face-to-face: Bibi đọc câu hỏi, có câu trả lời mẫu; nếu HS chưa nói sau 5 giây, Bibi gợi ý.
+7. Nếu Gemini trả lỗi 429/503, kiểm tra hạn mức API, kết nối và trạng thái dịch vụ.
+8. Cloud: đặt GEMINI_API_KEY trong Render Environment, không đưa key lên GitHub.
+
+Kết quả chấm phát âm là chỉ số hỗ trợ luyện tập, chưa chứng minh độ chính xác ở cấp âm vị.

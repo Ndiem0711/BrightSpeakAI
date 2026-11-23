@@ -1,0 +1,11 @@
+# Model hoi thoai va anh. Co the doi tai day, khong can sua Python.
+# Bien moi truong cloud duoc uu tien. Pro khong phai model Live.
+GEMINI_MODEL=gemini-3.5-flash-lite
+GEMINI_FALLBACK_MODEL=gemini-3.6-flash
+GEMINI_LIVE_MODEL=gemini-3.8-live
+AUDIO_FEEDBACK_ENABLED=false
+
+# ASR + Look & Speak: one short request by default, at most one fallback.
+GEMINI_FAST_MODEL=gemini-3.5-flash-lite
+GEMINI_FAST_FALLBACK_MODEL=gemini-3.8-flash
+GEMINI_FAST_TIMEOUT=15
