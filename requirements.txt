@@ -2,10 +2,10 @@
 fastapi==0.128.2
 pydantic==2.13.5
 uvicorn==0.48.0
-python-multipart==0.0.29
-PyJWT==2.13.0
+python-multipart==0.0.31
+PyJWT==2.15.0
 httpx==0.28.1
-pytest==9.0.2
+pytest==9.0.3
 
 # Gemini Live API WebSocket proxy (no browser key exposure)
 google-genai>=1.42,<2
